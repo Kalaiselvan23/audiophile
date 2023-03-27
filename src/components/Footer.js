@@ -7,7 +7,7 @@ export default function Footer() {
     <div className="bg-[#191919] text-white h-72 mt-16">
       <div className="flex justify-between w-[70%] mx-auto p-10">
         <span className="font-bold text-2xl my-auto">audiophile</span>
-        <ul className="flex justify-between w-[50%]">
+        <ul className="flex justify-between w-[50%] md:hidden lg:flex sm:hidden">
           <li>HOME</li>
           <li>HEADPHONES</li>
           <li>SPEAKERS</li>

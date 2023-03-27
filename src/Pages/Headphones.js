@@ -11,7 +11,7 @@ function Headphones() {
       <Title />
       <Headphonemodels />
       <Products />
-      <Compliment />
+      {/* <Compliment /> */}
       <Footer />
     </div>
   );

@@ -6,7 +6,7 @@ export default function Navbar() {
     <div className='bg-[#191919]'>
     <div className='bg-[#191919] text-white flex justify-between items-center h-[10vh] border-b-2 border-neutral-600 text-small w-[75%] mx-auto'>
       <span className="font-extrabold text-2xl">audiophile</span>
-      <div className='flex justify-between w-[40%]'>
+      <div className='flex justify-between w-[40%] md:hidden lg:flex max-sm:hidden'>
         <span>HOME</span>
         <span>HEADPHONES</span>
         <span>SPEAKERS</span>
