@@ -13,7 +13,7 @@ const getModel = (data, index) => {
           // src={require(img)}
           src={require("../../images/category-headphones/desktop/image-xx59.jpg")}
           alt=""
-          className="headphone-img h-full w-[50%]"
+          className="headphone-img h-full"
         />
         <div className="headphone-indiv flex flex-col w-[30%] items-start mx-auto justify-center gap-3">
           <span className="headphone-new text-gray-500">NEW PRODUCT</span>
