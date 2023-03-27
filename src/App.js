@@ -1,11 +1,12 @@
-import './App.css';
-import Navbar from './components/Navbar';
-import Homepage from './Pages/Homepage';
+import "./App.css";
+// import Homepage from "./Pages/Homepage";
+import Headphones from "./Pages/Headphones";
 
 function App() {
   return (
     <div className="App">
-    <Homepage/>
+      {/* <Homepage /> */}
+      <Headphones />
     </div>
   );
 }
