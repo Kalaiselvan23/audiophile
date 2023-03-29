@@ -1,5 +1,5 @@
 import "./App.css";
-// import Homepage from "./Pages/Homepage";
+import Homepage from "./Pages/Homepage";
 import Headphones from "./Pages/Headphones";
 
 function App() {

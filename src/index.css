@@ -21,7 +21,7 @@ html
 @tailwind utilities;
 .product-categ
 {
-  @apply bg-[#F1F1F1] h-[20vh] w-[200px]  flex flex-col items-center relative justify-end rounded-md
+  @apply bg-[#F1F1F1] h-[20vh] w-[200px]  flex flex-col items-center mt-24 mx-auto relative justify-end rounded-md
 }
 .categ-image
 {

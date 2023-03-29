@@ -2,13 +2,13 @@ import React from "react";
 
 export default function Compliment() {
   return (
-    <div className="w-[70%] flex mx-auto rounded-lg">
+    <div className="w-[70%] flex mx-auto rounded-lg max-md:flex-col max-md:flex-col-reverse">
       <div className="flex flex-col justify-center gap-7">
-        <span className="text-4xl font-medium">
+        <span className="text-4xl font-medium mt-5">
           BRINGING YOU THE <span className="text-[#D87D4A]">BEST</span> AUDIO
           GEAR
         </span>
-        <p className="font-thin w-[90%]">
+        <p className="font-thin w-[90%] max-md:mx-auto">
           Located at the heart of New York City, Audiophile is the premier store
           for high end headphones, earphones, speakers, and audio accessories.
           We have a large showroom and luxury demonstration rooms available for

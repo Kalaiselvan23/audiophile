@@ -2,7 +2,7 @@ import React from "react";
 import Arrow from "../images/shared/desktop/icon-arrow-right.svg";
 export default function Products() {
   return (
-    <div className=" flex w-[70%] mx-auto justify-around h-fit my-32">
+    <div className=" flex w-[70%] mx-auto justify-around h-fit my-32 max-sm:flex-col items-center">
       <div className="product-categ">
         <img
           src={require("../images/category-headphones/desktop/image-xx99-mark-one-removebg-preview.png")}
